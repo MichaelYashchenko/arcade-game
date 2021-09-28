@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="64" tileheight="64" infinite="0" nextlayerid="7" nextobjectid="6">
+ <tileset firstgid="1" source="arcade_platformer.tsx"/>
+ <objectgroup id="5" name="coins">
+  <object id="2" gid="1" x="336" y="875" width="32" height="30">
+   <properties>
+    <property name="point_value" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="3" gid="1" x="520" y="875" width="32" height="30">
+   <properties>
+    <property name="point_value" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="4" gid="3" x="852" y="563" width="24" height="22">
+   <properties>
+    <property name="point_value" type="int" value="20"/>
+   </properties>
+  </object>
+  <object id="5" gid="3" x="1364" y="751" width="24" height="22">
+   <properties>
+    <property name="point_value" type="int" value="20"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="2" name="ladders" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwVAHAAfQAAE=
+  </data>
+ </layer>
+ <layer id="1" name="ground" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjAL6A3EgFgBiQSAWAmIJKpsvCsQKQMyPhBWBWIxK5otjMR/ZHnz+gfmbEMZlPrI92PQJEdA3iocnBgDMaQrE
+  </data>
+ </layer>
+ <layer id="4" name="goal" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjILBDWzoYIc1HeywpYMdo2DkAgD5SwC1
+  </data>
+ </layer>
+ <layer id="3" name="background" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjALcQHegHTCAwACI7ZD4drgUEjBjFIwCegAA6tIBCg==
+  </data>
+ </layer>
+</map>
